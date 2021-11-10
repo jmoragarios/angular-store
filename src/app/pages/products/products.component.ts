@@ -24,4 +24,9 @@ export class ProductsComponent implements OnInit {
     .subscribe();
   }
 
+  addToCart( product: Product ):void {
+    console.log('add to cart:', product);
+    
+  }
+
 }
