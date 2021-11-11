@@ -1,0 +1,14 @@
+.spacer {
+    flex: 1 1 auto;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.cursor-pointer:hover {
+    cursor: pointer;
+    background-color: #6d80e7;
+    transition: all 0.7 ease-in-out;
+}
